@@ -7,6 +7,7 @@ class Teacher < User
   def teach 
     KNOWLEDGE.each do |know|
       puts know 
+    end 
   end 
 
 end 
