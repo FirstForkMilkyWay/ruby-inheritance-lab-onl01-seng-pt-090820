@@ -6,7 +6,6 @@ class Teacher < User
   
   def teach 
     Teacher::KNOWLEDGE 
-    end 
   end 
 
 end 
