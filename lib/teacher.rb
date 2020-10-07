@@ -7,6 +7,7 @@ class Teacher < User
   def teach 
     KNOWLEDGE.each do |x|
       puts x 
+      binding.pry 
     end 
   end 
 
